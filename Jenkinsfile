@@ -1,6 +1,9 @@
 pipeline {
     agent {
-        label 'Jnekins-pipline_test'
+    
+        node{
+            label 'Jnekins-pipline_test'
+            }
     }
 
 
